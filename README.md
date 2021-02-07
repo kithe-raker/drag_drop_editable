@@ -16,4 +16,4 @@ follow me on [twitter](https://twitter.com/kithe_raker)🙋🏻‍♂️
 * [Thai](https://discord.gg/M4k85RSh7u) flutter dev communityv
 
 
-[sample]: https://drive.google.com/file/d/1EloMOPYEV9B_Fa2oJZCtcmBSTIP4YcUK/view?usp=sharing
+[sample]: https://github.com/kithe-raker/drag_drop_editable/blob/master/assets/sample.gif
