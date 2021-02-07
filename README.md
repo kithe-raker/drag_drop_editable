@@ -1,6 +1,6 @@
 ## drag_drop_editable
 
-![sample]
+![sample][sample]
 
 🌻 Howdy! Every developer this is my simple drag, drop and add image application, and it was built with [Flutter](https://github.com/flutter/flutter)!
 
