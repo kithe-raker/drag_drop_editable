@@ -1,5 +1,4 @@
 import 'package:drag_drop_editable/drag_drop/controllers/ImageBoxController.dart';
-import 'package:drag_drop_editable/drag_drop/widget/BoxWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 

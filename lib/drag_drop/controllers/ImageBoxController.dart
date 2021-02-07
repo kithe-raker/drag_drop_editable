@@ -6,20 +6,28 @@ import 'package:flutter/widgets.dart';
 import 'package:rxdart/rxdart.dart';
 
 class ImageBoxController {
+  ///[id] refer to this controller
   final String id;
   ImageBoxController(this.id);
-  final subject = BehaviorSubject<ImageBoxModel>();
-  Stream<ImageBoxModel> get stream => subject.stream;
-  ImageBoxModel get value => subject.value;
 
+  final _subject = BehaviorSubject<ImageBoxModel>();
+  
+  ///[_subject] is the controller's stream
+  Stream<ImageBoxModel> get stream => _subject.stream;
+
+  ///current value in [_subject]
+  ImageBoxModel get value => _subject.value;
+
+  ///initial [ImageBoxController]
   factory ImageBoxController.init(Uint8List imageBytes) {
     final String id = DateTime.now().millisecondsSinceEpoch.toString();
     final controller = ImageBoxController(id);
     final box = ImageBoxModel.intit(id, imageBytes: imageBytes);
-    controller.subject.add(box);
+    controller._subject.add(box);
     return controller;
   }
 
+  ///update [ImageBoxModel] in this controller
   void update(
       {double fromTop,
       double fromLeft,
@@ -37,9 +45,10 @@ class ImageBoxController {
         angle: angle ?? value.angle,
         bytes: bytes ?? value.bytes);
 
-    subject.add(newTextData);
+    _subject.add(newTextData);
   }
 
+  ///Image box widget
   Widget get widget => ImageBox(
       stream: stream,
       id: this.id,
