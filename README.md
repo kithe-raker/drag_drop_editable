@@ -1,4 +1,4 @@
-## drag_drop_editable
+# drag_drop_editable
 
 ![sample][sample]
 
@@ -8,12 +8,12 @@ However this just a simple, but you all can clone it and have fun play with it a
 
 If you like it and want this project to be #cooler, just give this repo a star ⭐️
 
-
 follow me on [twitter](https://twitter.com/kithe_raker)🙋🏻‍♂️
 
-#discord 📢
-* [Global](https://discord.gg/SGPJk9yTm6) flutter dev community
-* [Thai](https://discord.gg/M4k85RSh7u) flutter dev communityv
+## Join Flutter Community 📢
 
+* 🌎 [Global Flutter dev community](https://discord.gg/SGPJk9yTm6)
+* 🇹🇭 [Thai Flutter developer Group](https://discord.gg/M4k85RSh7u)
+* 🇹🇭 [Thai Flutter dev discord](https://discord.gg/M4k85RSh7u)
 
 [sample]: https://github.com/kithe-raker/drag_drop_editable/blob/master/assets/sample.gif
